@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  color: aliceblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section{
+  padding:50px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header{
+  width: 100%;
+  position: fixed;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left :50px;
+  padding-right: 100px;
+  padding-top: 40px;
+  background-color:transparent;
+  z-index:1;
+  transition: 0.5s;
+   
+}
+.sticky{
+  background-color: #f8f8f8;
+  padding-left :50px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 5px 20px rgba(0,0, 0, 1);
+}
+.sticky .logo{
+  color: #070707;
+  margin-right: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.sticky a{
+  color: #070707;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.logo{
+  font-size: 44px;
+  margin-right: auto;
+}
+.list {
+  position: relative;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap:30px;
+  
+}
+.list a{
+  position: relative;
+  text-decoration: none;
+}
+.banner{
+  position: relative;
+  min-height : 100vh;
+  background: url("./imgs/img2.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content:center;
+  align-items: left;
+  flex-direction: column;
+
+}
+.banner h2{
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.banner span{
+  font-size: 3em;
+  font-weight: 700;
+}
+.banner h3{
+  font-size: 1.0em;
+  font-weight: 500;
+}
+.heading{
+   width:100%;
+   text-align: center;
+   color: #070707;
+   margin-bottom: 30px;
+}
+.heading h2{
+  font-weight: 600;
+  font-size: 30px;
+  color: #070707;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.contentBx{
+  padding-right: 30px;
+}
+.contentBx p{ 
+  color: #070707;
+}
+.contentBx h3{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #070707;
+}
+.w50{
+  min-width:50%;
+}
+img{
+  max-width: 100%;
 }
