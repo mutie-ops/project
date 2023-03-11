@@ -10,6 +10,7 @@ function App() {
       <Banner />
       <About />
       <Services />
+         
     </>
   )
     
