@@ -4,66 +4,151 @@ import image3 from '../imgs/icons/web design.png'
 import image4 from '../imgs/icons/consultation.png'
 import image5 from '../imgs/icons/micro services.png'
 import image6 from '../imgs/icons/web development.png'
+import Text from '../Text'
+import React from 'react'
+
+// THere is gotta be a better way to do this
 function Services(){
 
+  
+    function toggling(){
+        const toggle_more = document.getElementById('more')
+        toggle_more.parentNode.classList.toggle('active-')
+    }
+    function toggling2(){
+        const toggle_more = document.getElementById('more2')
+        toggle_more.parentNode.classList.toggle('active-')
+    }
+
+    
+    function toggling3(){
+        const toggle_more = document.getElementById('more3')
+        toggle_more.parentNode.classList.toggle('active-')
+    }
+    function toggling4(){
+        const toggle_more = document.getElementById('more4')
+        toggle_more.parentNode.classList.toggle('active-')
+    }
+
+    
+    function toggling5(){
+        const toggle_more = document.getElementById('more5')
+        toggle_more.parentNode.classList.toggle('active-')
+    }
+    function toggling6(){
+        const toggle_more = document.getElementById('more6')
+        toggle_more.parentNode.classList.toggle('active-')
+    }
+
+
     const service1 = 
-    <div className="seviceBx">
-                    <img className='imgs' src={image1}></img>
-                    <h3>Graphic Design</h3>
-                    <p>We do graphic design</p>
-                </div>
+    <>
+     <div className="icon-"> 
+        <img className='imgs' src={image1}></img>
+    </div>  
+        <div className='content-'>
+            <h3>Graphic Design</h3>
+            <p>{Text.graphicDesign}</p>
+        </div>
+        <a onClick={toggling}className='more' id='more'></a>
+    </>
+   
+       
     const service2 = 
-    <div className="seviceBx">
-                    <img className='imgs' src={image2}></img>
-                    <h3>Photo Editing</h3>
-                    <p>We do photo editing</p>
-                </div>
+    <>
+     <div className="icon-"> 
+        <img className='imgs' src={image2}></img>
+    </div>  
+        <div className='content-'>
+            <h3>Photo Editing</h3>
+            <p>{Text.photoEditing}</p>
+        </div>
+        <a onClick={toggling2}className='more' id='more2'></a>
+    </>
+   
 
     const service3 = 
-    <div className="seviceBx">
-                <img className='imgs' src={image3}></img>
-                <h3>Web Design</h3>
-                <p>We do web designing</p>
-                </div>
+    <>
+     <div className="icon-"> 
+        <img className='imgs' src={image3}></img>
+    </div>  
+        <div className='content-'>
+            <h3>Web Design</h3>
+            <p>{Text.webDesign}</p>
+        </div>
+        <a onClick={toggling3}className='more' id='more3'></a>
+    </>
 
     const service4 = 
-    <div className="seviceBx">
-                <img className='imgs' src={image4}></img>
-                <h3>IT consultation</h3>
-                <p>IT inquiry and many more IT services</p>
-                </div>
-
+    <>
+    <div className="icon-"> 
+       <img className='imgs' src={image4}></img>
+   </div>  
+       <div className='content-'>
+           <h3>IT Consultation</h3>
+           <p>{Text.consultation}</p>
+       </div>
+       <a onClick={toggling4}className='more' id='more4'></a>
+   </>
     const service5 = 
-    <div className="seviceBx">
-                <img className='imgs' src={image5}></img>
-                <h3>Micro Services</h3>
-                <p>Build services to integrate to existing web applications</p>
-                </div>
-
+    <>
+     <div className="icon-"> 
+        <img className='imgs' src={image5}></img>
+    </div>  
+        <div className='content-'>
+            <h3>Micro Services</h3>
+            <p>{Text.microservices}</p>
+        </div>
+        <a onClick={toggling5}className='more' id='more5'></a>
+    </>
     const service6 = 
-    <div className="seviceBx">
-                <img className='imgs' src={image6}></img>
-                <h3>Web development</h3>
-                <p>Build website at fair prices</p>
-                </div>
+    <>
+    <div className="icon-"> 
+       <img className='imgs' src={image6}></img>
+   </div>  
+       <div className='content-'>
+           <h3>Web Development</h3>
+           <p>{Text.webDevelopment}</p>
+       </div>
+       <a onClick={toggling6}className='more' id='more6'></a>
+   </>
 
     const services = 
-    <section className="services">
-    <div className="white">
-        <h2>Services</h2>
-        <p>This are the services we offer as of now</p>
-            <div className="contents">
-                {service1}
-                {service2}
-                {service3}
-                {service4}
-                {service5}
-                {service6}
-            </div>
-           
-    </div>
-    </section>
+        <div className='serve' id='serve'>
+            <h1>Services</h1>
+    <section className="services" id="services-">
+       
+     <div className='container-'>
+        <div className='card-'>
+            {service1}
+        </div>
 
+         <div className='card-'>
+            {service2}
+        </div>
+
+        <div className='card-'>
+            {service3}
+        </div>
+        <div className='card-'>
+            {service4}
+        </div>
+
+        <div className='card-'>
+            {service5}
+        </div>
+        <div className='card-'>
+            {service6}
+        </div> 
+
+            
+
+     </div>
+   
+   
+    
+    </section>
+        </div>
     return services
 }
 

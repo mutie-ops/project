@@ -1,9 +1,9 @@
-import img1 from '../imgs/img5.jpg'
+import img1 from '../imgs/arts3.png'
 import Text from '../Text'
 function About(){
 
     const about = 
-            <section className="about">
+            <section className="about" id="about-">
                 <div className="heading">
                     <h2>About Me</h2>
                        
@@ -12,17 +12,11 @@ function About(){
                 <div className="content"> 
                             <div className="contentBx">
                             <h3>I'm a Software Developer</h3>
-                            <p>{Text.about}
-                                    <br />
-                                    While it may not be obvious to everyone,
-                                     there are a number of reasons creating random paragraphs can be useful.
-                                    A few examples of how some people use this
-                                    generator are listed in the following paragraphs.
-                                    </p>
+                            <p>{Text.about}<br></br>{Text.about2}</p>
                             </div>
 
                             <div className="w50">
-                               <img src={img1}></img>
+                               <img className="img-el"src={img1}></img>
                             </div>
                     </div>
             </section>
