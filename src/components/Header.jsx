@@ -33,7 +33,7 @@ function Header(){
             <li onClick={toggling} className="list-el"><a   className="a-" href="#about-">About</a></li>
             <li onClick={toggling} className="list-el"><a className="a-" href="#serve">Services</a></li>
             <li onClick={toggling} className="list-el"><Link className="a-" to="/gallery">Gallery</Link></li>
-            <li onClick={toggling} className="list-el"><Link className="a-" to="/commission">Commission</Link></li>
+            {/* <li onClick={toggling} className="list-el"><Link className="a-" to="/commission">Commission</Link></li> */}
             <li onClick={toggling} className="list-el"><a className="a-" href="#contacts">Contacts</a></li>
          </ul>
     </div>

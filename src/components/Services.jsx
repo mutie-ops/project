@@ -49,6 +49,8 @@ function Services(){
         <div className='content-'>
             <h3>Graphic Design</h3>
             <p>{Text.graphicDesign}</p>
+            <h2>charges</h2>
+            <h1> $25 USD per design</h1>
         </div>
         <a onClick={toggling}className='more' id='more'></a>
     </>
@@ -62,6 +64,8 @@ function Services(){
         <div className='content-'>
             <h3>Photo Editing</h3>
             <p>{Text.photoEditing}</p>
+            <h2>charges</h2>
+            <h1> $15 USD per Edit</h1>
         </div>
         <a onClick={toggling2}className='more' id='more2'></a>
     </>
@@ -75,6 +79,8 @@ function Services(){
         <div className='content-'>
             <h3>Web Design</h3>
             <p>{Text.webDesign}</p>
+            <h2>charges</h2>
+            <h1> $60 - $100 USD per design</h1>
         </div>
         <a onClick={toggling3}className='more' id='more3'></a>
     </>
@@ -87,6 +93,8 @@ function Services(){
        <div className='content-'>
            <h3>IT Consultation</h3>
            <p>{Text.consultation}</p>
+           <h2>charges</h2>
+            <h1> Free - $10 USD</h1>
        </div>
        <a onClick={toggling4}className='more' id='more4'></a>
    </>
@@ -98,6 +106,8 @@ function Services(){
         <div className='content-'>
             <h3>Micro Services</h3>
             <p>{Text.microservices}</p>
+            <h2>charges</h2>
+            <h1> $1500 USD</h1>
         </div>
         <a onClick={toggling5}className='more' id='more5'></a>
     </>
@@ -109,6 +119,8 @@ function Services(){
        <div className='content-'>
            <h3>Web Development</h3>
            <p>{Text.webDevelopment}</p>
+           <h2>charges</h2>
+            <h1> $2000 USD</h1>
        </div>
        <a onClick={toggling6}className='more' id='more6'></a>
    </>

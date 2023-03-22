@@ -1,23 +1,23 @@
 
-
+.commission{
+    background-color: #f8f8f8;
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+    color: #070707;
+    
+}
 .bodys{
     min-height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
-   
+    background-color: #f8f8f8;
+    gap: 20px;
+    padding: 50px;
 
-}
-.slide-container{
-    max-width: 1120px;
-    width:100%;
-    background-color: grey;
-    padding: 40px 0;
-
-}
-.slide-content{
- margin: 0 40px;   
 }
 
 .image-content,
@@ -37,7 +37,17 @@
     width: 320px;
     border-radius: 25px;
     background-color: rgb(252, 252, 252);
+    gap: 20px;
+    height: 400px;
+    min-height: 400px;
+    overflow: hidden;
+    box-shadow:  2px 5px 15px grey;
+   
   
+}
+.card:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 .overlay{
     position:absolute;
@@ -45,7 +55,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(33, 115, 182);
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
     border-radius: 25px 25px 0 25px;
 }
 
@@ -57,7 +67,7 @@
     bottom: -40px;
     height:40px;
     width: 40px;
-    background-color: rgb(33, 115, 182);
+    background-color: #e28053ec;
 
 
 }
@@ -79,7 +89,7 @@
      width: 100%;
      object-fit: 50%;
      border-radius: 50%;
-     border: 4px solid rgb(33, 115, 182);
+     border: 4px solid  #af4261;
 }
 .name{
     color:#070707;
