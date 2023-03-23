@@ -52,7 +52,7 @@ function Services(){
             <h2>charges</h2>
             <h1> $25 USD per design</h1>
         </div>
-        <a onClick={toggling}className='more' id='more'></a>
+        <button onClick={toggling}className='more' id='more'></button>
     </>
    
        
@@ -67,7 +67,7 @@ function Services(){
             <h2>charges</h2>
             <h1> $15 USD per Edit</h1>
         </div>
-        <a onClick={toggling2}className='more' id='more2'></a>
+        <button onClick={toggling2}className='more' id='more2'></button>
     </>
    
 
@@ -82,7 +82,7 @@ function Services(){
             <h2>charges</h2>
             <h1> $60 - $100 USD per design</h1>
         </div>
-        <a onClick={toggling3}className='more' id='more3'></a>
+        <button onClick={toggling3}className='more' id='more3'></button>
     </>
 
     const service4 = 
@@ -96,7 +96,7 @@ function Services(){
            <h2>charges</h2>
             <h1> Free - $10 USD</h1>
        </div>
-       <a onClick={toggling4}className='more' id='more4'></a>
+       <button onClick={toggling4}className='more' id='more4'></button>
    </>
     const service5 = 
     <>
@@ -109,7 +109,7 @@ function Services(){
             <h2>charges</h2>
             <h1> $1500 USD</h1>
         </div>
-        <a onClick={toggling5}className='more' id='more5'></a>
+        <button onClick={toggling5}className='more' id='more5'></button>
     </>
     const service6 = 
     <>
@@ -122,7 +122,7 @@ function Services(){
            <h2>charges</h2>
             <h1> $2000 USD</h1>
        </div>
-       <a onClick={toggling6}className='more' id='more6'></a>
+       <button onClick={toggling6}className='more' id='more6'></button>
    </>
 
     const services = 
