@@ -24,12 +24,12 @@ function Okanimation(){
     
     const ok_animation = 
     <div key={Math.random()} className={hide ?'popup': 'popup hide'}>
-        <img className='tick'src={tick}></img>
+        <img className='tick'src={tick} alt='icon'></img>
         <span className='popup-mess'>Message successfully sent</span>
         <img onClick={function(){
             setHide(false)}}
 
-        className='ex' src={close}></img>
+        className='ex' src={close} alt='close-icon'></img>
     </div>
 
     return ok_animation

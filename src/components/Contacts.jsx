@@ -60,9 +60,9 @@ function Contacts(){
                      <span>benjaminmutie53@gmail.com</span></p>
 
                 <ul className='footer-el'>
-                    <li><a target='_blank' href="https://www.facebook.com/"><img src={img1} alt="" /></a></li>
-                    <li><a target='_blank' href="https://twitter.com/messages"><img src={img2} alt="" /></a></li>
-                    <li><a target='_blank' href="https://www.instagram.com/direct/inbox/"><img src={img3} alt="" /></a></li>
+                    <li><a target='_blank' rel="noreferrer" href="https://www.facebook.com/"><img src={img1} alt="" /></a></li>
+                    <li><a target='_blank' rel="noreferrer" href="https://twitter.com/messages"><img src={img2} alt="" /></a></li>
+                    <li><a target='_blank' rel="noreferrer" href="https://www.instagram.com/direct/inbox/"><img src={img3} alt="" /></a></li>
                     {/* <li><a href=""><img src={img4} alt="" /></a></li>
                     <li><a href=""><img src={img5} alt="" /></a></li>
                  */}

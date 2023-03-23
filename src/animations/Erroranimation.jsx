@@ -32,7 +32,7 @@ function Erroranimation(){
         <img onClick={function(){
             setHide(false)
       }}
-        className='ex' src={closer}alt='close image'></img>
+        className='ex' src={closer}alt='close'></img>
         {function(){
             reset()
         }}

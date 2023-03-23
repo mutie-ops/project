@@ -44,7 +44,7 @@ function Services(){
     const service1 = 
     <>
      <div className="icon-"> 
-        <img className='imgs' src={image1}></img>
+        <img className='imgs' src={image1} alt='icon'></img>
     </div>  
         <div className='content-'>
             <h3>Graphic Design</h3>
@@ -59,7 +59,7 @@ function Services(){
     const service2 = 
     <>
      <div className="icon-"> 
-        <img className='imgs' src={image2}></img>
+        <img className='imgs' src={image2} alt='icon img'></img>
     </div>  
         <div className='content-'>
             <h3>Photo Editing</h3>
@@ -74,7 +74,7 @@ function Services(){
     const service3 = 
     <>
      <div className="icon-"> 
-        <img className='imgs' src={image3}></img>
+        <img className='imgs' src={image3} alt='icon-img'></img>
     </div>  
         <div className='content-'>
             <h3>Web Design</h3>
@@ -88,7 +88,7 @@ function Services(){
     const service4 = 
     <>
     <div className="icon-"> 
-       <img className='imgs' src={image4}></img>
+       <img className='imgs' src={image4} alt='icon-img'></img>
    </div>  
        <div className='content-'>
            <h3>IT Consultation</h3>
@@ -101,7 +101,7 @@ function Services(){
     const service5 = 
     <>
      <div className="icon-"> 
-        <img className='imgs' src={image5}></img>
+        <img className='imgs' src={image5} alt='icon-img'></img>
     </div>  
         <div className='content-'>
             <h3>Micro Services</h3>
@@ -114,7 +114,7 @@ function Services(){
     const service6 = 
     <>
     <div className="icon-"> 
-       <img className='imgs' src={image6}></img>
+       <img className='imgs' src={image6}alt='icon-img'></img>
    </div>  
        <div className='content-'>
            <h3>Web Development</h3>
