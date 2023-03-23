@@ -29,7 +29,7 @@ function Header(){
         <h1 className="logo">It2gO</h1>
         <div onClick={toggling} className="toggle" id="toggle"></div>
          <ul className="list" id="list">
-            <li onClick={toggling} className="list-el"><a className="a-" href="#">Home</a></li>
+            <li onClick={toggling} className="list-el"><a   className="a-" href="#home">Home</a></li>
             <li onClick={toggling} className="list-el"><a   className="a-" href="#about-">About</a></li>
             <li onClick={toggling} className="list-el"><a className="a-" href="#serve">Services</a></li>
             <li onClick={toggling} className="list-el"><Link className="a-" to="/gallery">Gallery</Link></li>
