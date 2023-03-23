@@ -1,6 +1,4 @@
 import '../Animation.css'
-import close from '../imgs/icons/close-g.png'
-import tick from '../imgs/icons/tick.png'
 import React from 'react'
 import closer from '../imgs/icons/close-r.png'
 import error from '../imgs/icons/error.png'
@@ -29,12 +27,12 @@ function Erroranimation(){
      }
     const error_animation = 
     <div key={Math.random()} className={hide ?'errorpopup': 'errorpopup hide'}>
-        <img className='tick'src={error}></img>
+        <img className='tick'src={error} alt=''></img>
         <span className='popup-mess'>Message not sent</span>
         <img onClick={function(){
             setHide(false)
       }}
-        className='ex' src={closer}></img>
+        className='ex' src={closer}alt='close image'></img>
         {function(){
             reset()
         }}

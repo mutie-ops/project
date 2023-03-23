@@ -16,7 +16,7 @@ function About(){
                             </div>
 
                             <div className="w50">
-                               <img className="img-el"src={img1}></img>
+                               <img className="img-el"src={img1} alt=''></img>
                             </div>
                     </div>
             </section>
