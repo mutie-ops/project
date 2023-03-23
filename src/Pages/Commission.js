@@ -12,7 +12,7 @@ function Commission(){
             <span className='overlay'></span>
 
             <div className='card-image'>
-                <img className='card-img'src={items.img}></img>
+                <img className='card-img'src={items.img}alt=""></img>
             </div>
         </div>
         <div className='card-content'>

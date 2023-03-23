@@ -31,14 +31,14 @@ function Gallery(){
 
         return  <div onClick={function(){
                 getImage(item.img)}} 
-                className="pics" key={item.id}><img className='pics_' src={picture}></img>
+                className="pics" key={item.id}><img className='pics_' src={picture} alt='gallery'></img>
                 </div>})
 
 
     const gallery = 
      <div className="Gallery-page">
             <div className="gallery-header">
-            <Link to="/" className="page"><img src={home}></img></Link>
+            <Link to="/" className="page"><img src={home} alt='back'></img></Link>
 
             <h2>Gallery</h2>
             </div> 
@@ -61,10 +61,10 @@ function Gallery(){
             <div className="gallery"> 
                 <>
                 <div className={model ? "model open":"model"}>
-                <img src={imgTemplate}></img>
+                <img src={imgTemplate}alt=''></img>
                 <img onClick={function(){
                         setModel(false)}}
-                className="close" src={close}></img>
+                className="close" src={close} alt='close'></img>
                 </div>
                 {imageGallery}
                 </>
