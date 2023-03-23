@@ -12,15 +12,17 @@ function Header(){
              window.addEventListener('scroll',fixedHeader) 
     },[])
 
-    const [toggles, setToggles] = React.useState(false)
+    // const [toggles, setToggles] = React.useState(false)
+
+
     function toggling(){
             let tog = document.getElementById('toggle')
             let side = document.getElementById('list')
             tog.classList.toggle('active')
             side.classList.toggle('menu')
-        setToggles(function(toggles){
-            return !toggles
-        })
+        //     setToggles(function(toggles){
+        //     return !toggles
+        // })
     }
     
 
