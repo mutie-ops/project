@@ -7,13 +7,12 @@ function Okanimation(){
 
     const [hide, setHide] = React.useState(true)
 
-    const [value, setValue] = React.useState(0)
-    setValue(null)
+   
 
     React.useEffect(function(){
         play()
         
-    },[value])
+    },[])
 
     function play(){
         new Audio(sound).play()

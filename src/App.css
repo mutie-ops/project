@@ -92,6 +92,7 @@ section{
 .sticky .logo{
   color: #070707;
   margin-right: auto;
+  visibility: hidden;
 }
 
 .sticky a{
@@ -104,6 +105,7 @@ section{
   width: 150px;
   height: 150px;
   left:25px;
+  visibility: hidden;
 }
 .list {
   

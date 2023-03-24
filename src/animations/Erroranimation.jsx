@@ -6,14 +6,12 @@ import sound from '../assets/pop.wav'
 function Erroranimation(){
 
     const [hide, setHide] = React.useState(true)
-    const [value, setValue] = React.useState(0)
-    
-    setValue(null)
+   
 
     React.useEffect(function(){
         play()
       
-    },[value])
+    },[])
 
     function play(){
         new Audio(sound).play()
