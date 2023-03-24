@@ -103,6 +103,7 @@ section{
   position: absolute;
   width: 150px;
   height: 150px;
+  left:25px;
 }
 .list {
   
@@ -540,7 +541,7 @@ p{
 @media(max-width:991px)
 {
 .Header, .sticky{
-  padding:10px  50px;
+  padding:5px  50px;
   z-index: 1000;
 }
 .list{
