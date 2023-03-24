@@ -1,4 +1,5 @@
 import React from "react"
+import logo from '../imgs/logo-.png'
 import { Link } from "react-router-dom";
 function Header(){
 
@@ -28,7 +29,7 @@ function Header(){
 
     const header = 
     <div className="Header" id="Header" ref={stickyHeader}>
-        <h1 className="logo">It2gO</h1>
+        <img className="logo" src={logo}alt="logo"></img>
         <div onClick={toggling} className="toggle" id="toggle"></div>
          <ul className="list" id="list">
             <li onClick={toggling} className="list-el"><a   className="a-" href="#home">Home</a></li>

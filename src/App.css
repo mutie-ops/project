@@ -100,9 +100,9 @@ section{
 
 
 .logo{
-  font-size: 44px;
-  color: #f8f8f8;
-  margin-right: auto;
+  position: absolute;
+  width: 150px;
+  height: 150px;
 }
 .list {
   
@@ -110,7 +110,8 @@ section{
   display: flex;
   color: #f8f8f8;
   gap:40px;
-  
+  padding: 10px;
+  margin-left: auto;
 }
 .list-el{
   color:white;
@@ -575,6 +576,8 @@ p{
   background-repeat: no-repeat;
   background-size: 30px;
   cursor: pointer;
+  margin-left: auto;
+  margin-top: 20px;
 }
 .active{
   width: 40px;
